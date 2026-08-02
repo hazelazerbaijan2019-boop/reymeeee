@@ -1,0 +1,19 @@
+<svg width="720" height="900" viewBox="0 0 720 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fərhadın fotosu (sifarişçi tərəfindən veriləcək)</title>
+  <desc id="desc">Fərhadın fotosu üçün placeholder</desc>
+  <rect width="720" height="900" fill="#EDF6FF"/>
+  <path d="M0 0H720V900H0V0Z" fill="url(#paint0_linear)"/>
+  <circle cx="360" cy="310" r="118" fill="#3F63F2" fill-opacity=".16"/>
+  <circle cx="360" cy="286" r="86" fill="#57C9F4"/>
+  <path d="M178 690c28-119 91-178 182-178s154 59 182 178H178Z" fill="#08153F"/>
+  <rect x="92" y="744" width="536" height="78" rx="8" fill="white" fill-opacity=".9"/>
+  <text x="360" y="786" text-anchor="middle" fill="#08153F" font-family="Arial, sans-serif" font-size="26" font-weight="700">Fərhad Pərvizi</text>
+  <text x="360" y="816" text-anchor="middle" fill="#5B647F" font-family="Arial, sans-serif" font-size="18">(sifarişçi tərəfindən veriləcək)</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="40" y1="40" x2="670" y2="870" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4F7FF"/>
+      <stop offset=".52" stop-color="#F6F9FF"/>
+      <stop offset="1" stop-color="#3F63F2" stop-opacity=".22"/>
+    </linearGradient>
+  </defs>
+</svg>

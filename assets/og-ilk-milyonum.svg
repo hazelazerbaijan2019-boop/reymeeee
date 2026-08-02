@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6F9FF"/>
+  <rect x="70" y="70" width="1060" height="490" rx="8" fill="#08153F"/>
+  <path d="M70 430C266 334 414 333 548 421C728 539 873 532 1130 360V560H70V430Z" fill="#2738C4"/>
+  <path d="M70 468C288 382 435 399 568 483C736 589 914 541 1130 418V560H70V468Z" fill="#57C9F4"/>
+  <text x="126" y="180" fill="#7FE0FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Fərhad Pərvizi ilə investisiya kursu</text>
+  <text x="126" y="292" fill="white" font-family="Arial, sans-serif" font-size="92" font-weight="900">İlk Milyonum</text>
+  <text x="126" y="360" fill="#DCE9FF" font-family="Arial, sans-serif" font-size="34">3 modul · canlı vebinarlar · istiqamətləndirilmiş çat</text>
+  <circle cx="980" cy="214" r="78" fill="#3F63F2"/>
+  <path d="M936 228l33 34 59-83" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
