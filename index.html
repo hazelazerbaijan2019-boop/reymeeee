@@ -19,12 +19,12 @@
     <meta property="og:url" content="https://parvizi.org/ilkmilyonum" />
     <meta property="og:image" content="https://parvizi.org/ilkmilyonum/assets/og-ilk-milyonum.svg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#101c52" />
+    <meta name="theme-color" content="#242a30" />
     <link rel="icon" href="assets/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="assets/favicon-192.png" />
-    <link rel="preload" href="assets/potensialist-logo.webp" as="image" />
+    <link rel="preload" href="assets/potensialist-logo-light.webp" as="image" />
     <link rel="preload" href="assets/farhad-photo-placeholder.svg" as="image" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=gray-turquoise-5" />
     <script>
       window.ILK_MILYONUM_CONFIG = {
         appsScriptEndpoint: "https://script.google.com/macros/s/AKfycbzRmeDYxrhhAn_IE-t-MjCFtKF0H3g_2vEkdiBM58NJqambcg3W3k0Zhqu65H6ZnZEj/exec",
@@ -42,6 +42,20 @@
         certificateLabel: "[təsdiqlənməlidir]"
       };
     </script>
+  
+    <style id="critical-gray-turquoise">
+      html, body { background: #242a30 !important; color: #ffffff !important; }
+      .site-header { background: rgba(36, 42, 48, 0.92) !important; border-bottom-color: rgba(46, 213, 213, 0.24) !important; }
+      .hero { background: radial-gradient(circle at 72% 22%, rgba(46, 213, 213, 0.22), transparent 34%), linear-gradient(120deg, #273137 0%, #242a30 52%, #303a42 100%) !important; }
+      .program, .registration { background: #293239 !important; }
+      .included, .pricing { background: #242a30 !important; }
+      .info-card, .accordion__item, .lead-form, .check-item, .market-card, .social-proof, .hero-stats div { background: rgba(48, 58, 66, 0.84) !important; border-color: rgba(46, 213, 213, 0.24) !important; }
+      p, .hero__lead, .hero-stats dd, .market-card span, .accordion__panel, .bio-list, .consent { color: #b8b8b8 !important; }
+      h1, h2, h3, .market-card strong, .accordion__trigger, .check-item, .form-field label { color: #ffffff !important; }
+      .eyebrow, .accordion__trigger span, .testimonials-note span { color: #4DE6E6 !important; }
+      .button--primary { background: linear-gradient(135deg, #4DE6E6, #2ED5D5 56%, #20C8C8) !important; color: #031112 !important; }
+      .button--secondary { background: rgba(255, 255, 255, 0.04) !important; color: #ffffff !important; border-color: rgba(46, 213, 213, 0.24) !important; }
+    </style>
   </head>
   <body>
     <a class="skip-link" href="#main">Məzmuna keç</a>
@@ -50,8 +64,8 @@
       <div class="header-shell">
         <a class="brand" href="https://parvizi.org/" aria-label="Potensialist ana səhifəsi">
           <picture>
-            <source srcset="assets/potensialist-logo.webp" type="image/webp" />
-            <img src="assets/potensialist-logo.png" alt="Potensialist" width="202" height="52" />
+            <source srcset="assets/potensialist-logo-light.webp" type="image/webp" />
+            <img src="assets/potensialist-logo-light.png" alt="Potensialist" width="202" height="52" />
           </picture>
         </a>
 
@@ -336,7 +350,7 @@
                   <g transform="translate(32 32) scale(1.14) translate(-32 -32)">
                     <path d="M39.8 12v27.2A13.4 13.4 0 1 1 26.4 25.8c1.2 0 2.3.2 3.4.5v8.5a5.1 5.1 0 1 0 3.5 4.9V12h6.5Z" fill="#25f4ee"></path>
                     <path d="M42.5 14.9c1.3 7 5.5 11.4 12.2 12.8v8.4c-4.8-.2-8.9-1.7-12.2-4.4v10.2a13.4 13.4 0 1 1-13.4-13.4c1.2 0 2.3.2 3.4.5v8.5a5.1 5.1 0 1 0 3.5 4.9V14.9h6.5Z" fill="#fe2c55"></path>
-                    <path d="M39.1 12c1.3 7 5.5 11.4 12.2 12.8v8.4c-4.8-.2-8.9-1.7-12.2-4.4V39a13.4 13.4 0 1 1-13.4-13.4c1.2 0 2.3.2 3.4.5v8.5a5.1 5.1 0 1 0 3.5 4.9V12h6.5Z" fill="#050505"></path>
+                    <path d="M39.1 12c1.3 7 5.5 11.4 12.2 12.8v8.4c-4.8-.2-8.9-1.7-12.2-4.4V39a13.4 13.4 0 1 1-13.4-13.4c1.2 0 2.3.2 3.4.5v8.5a5.1 5.1 0 1 0 3.5 4.9V12h6.5Z" fill="#fff"></path>
                   </g>
                 </svg>
               </a>
@@ -458,13 +472,6 @@
               <strong>İlk dalğanın rəyləri hazır olduqda bu axına əlavə ediləcək.</strong>
             </div>
             <div class="contact-strip">
-              <a href="#" data-whatsapp-link data-whatsapp-variant="default" data-cta="footer-whatsapp" class="contact-icon contact-icon--whatsapp js-track" aria-label="WhatsApp ilə yaz">
-                <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-                  <circle cx="16" cy="16" r="16" fill="#25d366"></circle>
-                  <path fill="#fff" d="M16.02 7.2a8.56 8.56 0 0 0-7.31 13.02L7.64 24l3.88-1.02a8.53 8.53 0 0 0 4.5 1.28h.01a8.53 8.53 0 0 0 0-17.06Zm0 15.6h-.01a7.08 7.08 0 0 1-3.6-.99l-.26-.15-2.3.6.61-2.24-.17-.27a7.07 7.07 0 1 1 5.73 3.05Zm3.88-5.3c-.21-.1-1.26-.62-1.45-.7-.2-.07-.34-.1-.48.1-.14.22-.55.7-.67.84-.12.14-.25.16-.46.05-.21-.1-.9-.33-1.71-1.06-.63-.56-1.06-1.26-1.19-1.47-.12-.21-.01-.32.09-.43.09-.09.21-.25.32-.37.11-.13.14-.22.21-.36.07-.14.04-.27-.02-.37-.05-.1-.48-1.16-.66-1.59-.17-.42-.35-.36-.48-.36h-.41c-.14 0-.37.05-.56.27-.2.21-.74.72-.74 1.76 0 1.04.76 2.04.86 2.18.1.14 1.49 2.28 3.62 3.2.51.22.9.35 1.21.45.51.16.97.14 1.34.08.41-.06 1.26-.51 1.44-1 .18-.49.18-.9.13-1-.05-.09-.19-.14-.4-.25Z"></path>
-                </svg>
-                <span class="sr-only">WhatsApp</span>
-              </a>
               <a href="mailto:info@parvizi.org" data-required-url="contact-email" class="contact-icon contact-icon--gmail" aria-label="Gmail ilə e-mail yaz">
                 <svg viewBox="0 0 256 193" aria-hidden="true" focusable="false">
                   <path fill="#4285f4" d="M58.18 192.05V93.14L27.51 65.08 0 49.5v125.1c0 9.65 7.82 17.45 17.45 17.45h40.73Z"></path>
