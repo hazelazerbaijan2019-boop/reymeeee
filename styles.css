@@ -414,12 +414,21 @@ p {
 
 .portrait-frame {
   width: min(100%, 440px);
+  aspect-ratio: 4 / 5;
   margin-left: auto;
   border-radius: 8px;
   background: var(--surface);
+  border: 1px solid var(--line);
   box-shadow: var(--shadow);
   overflow: hidden;
   transform: rotate(1.5deg);
+}
+
+.portrait-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 18%;
 }
 
 .market-card {
@@ -594,6 +603,38 @@ p {
 
 .accordion__panel li + li {
   margin-top: 8px;
+}
+
+.lesson-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.lesson-list li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--text-secondary);
+  font-weight: 650;
+}
+
+.lesson-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.76em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--accent-primary);
+  box-shadow: 0 0 0 4px rgba(46, 213, 213, 0.10);
+}
+
+.lesson-list strong {
+  color: var(--accent-light);
+  font-weight: 900;
 }
 
 .module-note {
@@ -875,17 +916,70 @@ p {
 }
 
 .about__media {
+  aspect-ratio: 4 / 5;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
 }
 
+.about__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+
+#about-title {
+  font-family: Sora, Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.04;
+}
+
+.about-title__name {
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.about-title__role {
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+.about__intro {
+  max-width: 820px;
+  margin: 18px 0 0;
+  color: var(--text-muted);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(1.05rem, 1.4vw, 1.35rem);
+  line-height: 1.66;
+  font-weight: 500;
+}
+
+.about__intro strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+.about__label {
+  margin: 22px 0 0;
+  color: var(--text-main);
+  font-family: Sora, Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
 .bio-list {
   display: grid;
-  gap: 12px;
+  gap: 14px;
   margin: 24px 0;
   padding-left: 22px;
   color: var(--muted);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+  line-height: 1.62;
 }
 
 .social-links {

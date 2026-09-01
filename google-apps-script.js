@@ -1,4 +1,4 @@
-const SPREADSHEET_ID = "1Zank5EKL95kYI_8wLHQiVN51-PVrxDHo_gJeg3krVHs";
+const SPREADSHEET_ID = "1FlUr_O4FRemx12OoBhPTvBz_bq-a5DDro7TDJ3IEki4";
 const PREFERRED_SHEET_NAMES = ["Qeydiyyat", "Sheet1", "1 vərəq"];
 
 const HEADERS = [

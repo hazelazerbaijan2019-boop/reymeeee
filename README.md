@@ -1,6 +1,6 @@
 # İlk Milyonum Landing
 
-Fərhad Pərvizi / Potensialist üçün `parvizi.org/ilkmilyonum` ünvanına nəzərdə tutulmuş yüngül statik landing səhifəsi.
+Fərhad Pərvizi / Potensialist üçün `parvizi.org/ilk` ünvanına nəzərdə tutulmuş yüngül statik landing səhifəsi.
 
 ## Fayllar
 
@@ -75,4 +75,4 @@ Deploy-dan əvvəl qəbul yoxlaması:
 - Formanın real Google Apps Script endpoint-ə tam yol boyu göndərişi yoxlanmalıdır
 - GA4 və Meta Pixel ID-ləri daxil edildikdən sonra event-lər brauzer developer tools və analitika panellərində təsdiqlənməlidir
 - Final fotolar WebP/AVIF formatında, `loading="lazy"` ilə və ümumi səhifə çəkisi 1.5 MB-dan aşağı qalacaq şəkildə əlavə olunmalıdır
-- `https://parvizi.org/ilkmilyonum` canonical URL-i deploy mühitində açılmalıdır
+- `https://parvizi.org/ilk` canonical URL-i deploy mühitində açılmalıdır
